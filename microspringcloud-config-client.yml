@@ -9,7 +9,7 @@ spring:
   profiles: dev
 eureka:
   client:
-    register-with-eureka: true
+    register-with-eureka: false
     service-url: #defaultZone集群环境下配置多个服务Eureka节点,以逗号分隔开
       defaultZone: http://localhost:10001/eureka/
   instance:
@@ -24,7 +24,7 @@ spring:
   profiles: test
 eureka:
   client:
-    register-with-eureka: true
+    register-with-eureka: false
     service-url: #defaultZone集群环境下配置多个服务Eureka节点,以逗号分隔开
       defaultZone: http://localhost:10001/eureka/
   instance:
