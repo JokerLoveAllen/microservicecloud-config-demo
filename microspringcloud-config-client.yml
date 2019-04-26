@@ -7,10 +7,10 @@ spring:
   profiles: dev
 h1:
   h2:
-    h3: this in dev area
+    h3: this in {big sliy bear} area
 ---
 spring:
   profiles: test
 h1:
   h2:
-    h3: this in test area
+    h3: this in {big sliy bear *2} area
