@@ -13,4 +13,4 @@ spring:
   profiles: test
 h1:
   h2:
-    h3: this in {big sliy bear *2} area
+    h3: this in {very much is not enough *2} area
